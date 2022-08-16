@@ -143,28 +143,3 @@ else:
     #print str(format_format)
     change_ncbi_to_genus_species(file_in)
 
-#with open('fasta_test', 'r') as input_file, open('new_file', 'w') as output_file:
-#	for line in input_file:
-#	if '>' in line:
-#		output_file.write(str(gb))
-#		output_file.write('\n')
-#	else:
-#		output_file.write(line)
-
-#gb=line.partition(' ')[0]
-#print "gb"
-#x = line.partition(' ')[2]
-#print x
-#searchObj = re.search( r'(\>\w\w)(\|)',line)
-#searchObj = re.search( r'(\>\w\w)(\|)(\d+)(\|)(.*)(\|)([.*])(\|)(\s)([.*])(\s)([.*])', line)
-
-#re.search(r'\>', line)
-
-#if match:
-#    print match.group()+*
-#if searchObj:
-   #print "searchObj.group() : ", searchObj.group()
-#   print "searchObj.group(2) : ", searchObj.group(2)
-#   print "searchObj.group(9) : ", searchObj.group(9)
-#else:
- #  print "gb"
